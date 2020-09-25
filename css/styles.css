@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#principal{
+    width: 900px;
+    height: 1080px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+body{
+    background-image: url(../img/patron2.jpg);
+}
+
+/*Barra de navegacion*/
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 121, 44);
+}
+
+#listamenu{
+    list-style-type: none;
+    background-color: #9c9c9c;
+}
+
+.menu{
+    float: left;
+}
+
+.menuhome{
+    display: block;
+    padding: 4px 15.03px;
+}
+
+.menulinks{
+    display: block;
+    padding: 16px 106.99px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+.menulinks:hover, .menuhome:hover{
+    background: #008F8E; 
+    color:  rgb(255, 121, 44);
+}
+
+/*Header slider*/
+
+header{
+    width: 100%;
+    height: 250px;
+    background-color: cyan;
+}
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0px;
+    width: 400%;
+    animation: banner 15s infinite;
+    animation-direction: reverse;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+
+}
+
+.empty{
+    width: 100%;
+    height: 25px;
+    background-color:  #003f3f;
+}
+
+/*Pagina de inicio*/
+
+#indexmain{
+    width: 100%;
+    height: 550px;
+    background-color: darkorange;
+}
+
+#sectionizq1{
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 121, 44);
+    float: left;
+}
+
+#sectionder1{
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 102, 14);
+    float: left;
+}
+
+#banner1{
+    width: 100px;
+    height: 100%;
+    background-color: rgb(247, 162, 147);
+    float: left;
+}
+
+#bannerimg1{
+    width: 100%;
+    height: 100%;
+}
+
+.izqboxes1{
+    width: 300px;
+    height: 200px;
+    background-color:  #008F8E;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+
+.txt1{
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+#izqimg1{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.imgboxes1{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 80px;
+    float: left;
+    margin-left: 33.33px;
+    margin-top: 10px;
+}
+
+.images1{
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+}
+
+#dertxt1{
+    width: 330px;
+    height: 180px;
+    background-color:  #008F8E;
+    float: left;
+    margin-top: 25px;
+    margin-left: 33px;
+    border-radius: 40px;
+}
+
+/*Pagina de contacto*/
+
+#contactmain{
+    width: 100%;
+    height: 550px;
+    background-color: teal;
+}
+
+#sectionup2{
+    width: 100%;
+    height: 275px;
+    background-color: rgb(255, 102, 14);
+}
+
+#sectionbot2{
+    width: 100%;
+    height: 275px;
+    background-color: rgb(255, 102, 14);
+}
+
+#vidbox{
+    width: 500px;
+    height: 225px;
+    background-color: teal;
+    float: left;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+#vid{
+    width: 100%;
+    height: 100%;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: darkred;
+}
+
+#namebox{
+    width: 50%;
+    height: 100%;
+    background-color:  #007070;
+    float: left;
+}
+
+#name{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding-top: 70px;
+}
+
+#socialbox{
+    width: 50%;
+    height: 100%;
+    background-color: #008F8E;
+    float: left;
+}
+
+#fbicon{
+    margin-left: 165px;
+    margin-top: 60px;
+    float: left;
+}
+
+#yticon{
+    margin-top: 60px;
+    float: left;
+}
+
+@keyframes banner{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+}
